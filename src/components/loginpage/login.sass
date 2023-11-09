@@ -1,0 +1,200 @@
+
+$image:url("../assets/1.png")
+$hover:#4752c4
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,900&family=Open+Sans:wght@300;400;500;600;800&family=Poppins:ital,wght@0,100;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap')
+$gg-sans: 'GG Sans'
+    
+body
+    font-family: 'GG Sans', sans-serif
+    margin: 0
+    padding: 0
+
+.main
+    position: absolute
+    width: 100%
+    height: 100vh
+    background-image: $image
+    background-size: cover
+    display: flex
+    justify-content: center
+    align-items: center
+    
+    .login-form-main-box
+        padding: 32px
+        background-color: #313338
+        width:  720px
+        height:345px
+        border-radius: 5px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .form-main-container
+            position: relative
+            color: white
+            width: 414px
+            height: 340px
+           
+            .text-container
+                
+                text-align: center
+                width: 414px
+                height: 58px
+                .main-title
+                    font-size: 22px
+                    
+                   
+                    margin-bottom: 8px
+                    font-weight: 500
+                    line-height: 30px
+                .secondary-title
+                    // font-family: gg sans,noto sans, Arial, Helvetica, sans-serif
+                    color: #a2a3a7
+                    font-size: 15px
+                    line-height: 20px
+            form
+                width: 414px
+                height: 80%
+                margin-top: 19px
+                .input-text
+                    
+                    width: 414px
+                    height: 64px
+                    .error
+                        margin-bottom: 8px
+                        label
+                            height: 16px
+                            width: 414px
+                            margin-bottom: 8px
+                            text-transform: uppercase
+                            font-size: 11px
+                            color: #B5BAC1
+                            font-weight: 700
+                            -webkit-box-flex: 1
+                            -ms-flex: 1
+                            flex: 1
+                            cursor: default
+                        span
+                            color: #ec4846
+                            font-style: italic
+                            text-transform: none
+                            font-size: 12px
+                            font-weight: 100
+                            margin: 0
+                            padding: 8px
+                            border: 0
+                            vertical-align: baseline
+                            transition: all 0.2s linear
+                    input
+                        
+                        padding: 10px
+                        height: 20px
+                        width: 394px
+                        max-width: 80vw
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 22px
+                        letter-spacing: 0.5px
+                        color: #D0D3D6
+                        background-color: #1E1F22
+                        border: none
+                        border-radius: 3px
+                        outline: none
+                        -webkit-transition: all 200ms linear
+                        transition: border-color .2s ease-in-out
+                .email
+                    margin-bottom: 20px
+                .password
+                    margin: 0px
+                    width: 414px
+                    height: 64px
+                    a
+                        text-decoration: none
+                        color: #00a8fc
+                        &:hover
+                            text-decoration: underline
+                    .forget-password
+                        font-size: 13px
+                        color: #00a8fc
+                        text-align: start
+                        margin-bottom: 20px
+                        padding: 0
+                        margin-top: 8px
+                        background: none
+                        border: none
+                button
+                    background-color: #5865f2
+                    color: #FFFFFF
+                    font-size: 16px
+                    border: none
+                    padding: 2px 16px
+                    border-radius: 5px
+                    width: 414px
+                    height: 44px
+                    margin-bottom: 8px
+                    &:hover
+                        background-color: $hover
+                .register-nav-button
+                    span
+                        font-size: 13px
+                        color: #949ba4
+                    .register
+                        width: 0
+                        height: 0
+                        border: 0
+                        background-color: none
+                        padding: 0
+                        margin-left: 5px
+                        font-size: 13px
+                        color: #00a8fc
+                        &:hover
+                            text-decoration: underline
+                            cursor: pointer
+                        
+        .qr-main-container
+            display: block
+            width: 240px
+            height: 344px
+            color: white
+            .qr-container
+                display: flex
+                justify-content: center
+                width: 100%
+                height:1
+                padding-top: 8px
+                
+                
+                .qr-code
+                    margin-bottom: 33px
+                    margin-top: 20px
+                    width: 176px
+                    height: 176px
+                    background-color: white
+                    border-radius: 5px
+                    img
+                        border-radius: 5px
+                        width: 176px
+                        height: 176px
+            .qr-title-box
+                
+                // margin-top: 33px
+                text-align: center
+                width: 240px
+                height: 38px
+                font-size: 22px
+                line-height: 30px
+                color: #F2F3F5
+                font-weight: 600
+                
+            .qr-secondary-title
+                margin-left: 3px
+                font-size: 15px
+                line-height: 19px
+                font-weight: 500
+                text-align-last: center
+                color: #B5BAC1
+
+
+
+
+
